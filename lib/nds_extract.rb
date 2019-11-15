@@ -40,7 +40,7 @@ def movies_with_director_key(name, movies_collection)
 
 movies_with_director_key = {:name => "Bob", :movies_collection => "Two Stories"}, {:name => "Larry", :movies_collection => "Wow"},
 {:name => "John", :movies_collection => "One time"}, {:name => "Don"}
-  
+
   #
   # INPUT:
   # * name: A director's name

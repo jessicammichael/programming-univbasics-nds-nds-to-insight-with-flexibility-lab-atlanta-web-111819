@@ -39,18 +39,7 @@ end
 def movies_with_director_key(name, movies_collection)
 
 movies_with_director_key = {:name => "Bob", :movies_collection => "Two Stories"}, {:name => "Larry", :movies_collection => "Wow"},
-{:name => "John", :movies_collection => "One time"}, {:name => "Don"}
-
-  #
-  # INPUT:
-  # * name: A director's name
-  # * movies_collection: An Array of Hashes where each Hash represents a movie
-  #
-  # RETURN:
-  #
-  # Array of Hashes where each Hash represents a movie; however, they should all have a
-  # :director_name key. This addition can be done by using the provided
-  # movie_with_director_name method
+{:name => "John", :movies_collection => "One time"}, {:name => "Don", :movies_collection => "Dog City"}
 end
 
 
